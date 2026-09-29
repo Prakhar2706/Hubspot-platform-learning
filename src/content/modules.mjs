@@ -1,0 +1,18 @@
+export const modules = [
+  { id: 'foundations', title: 'Meet your new toolkit', subtitle: 'Understand HubSpot, without the jargon.', level: 'Beginner', icon: 'compass', lessons: ['what-is-crm', 'hubspot-hubs', 'customer-journey'] },
+  { id: 'getting-started', title: 'Find your feet', subtitle: 'Set up safely and know where to click.', level: 'Beginner', icon: 'flag', lessons: ['safe-account', 'navigation', 'practice-rules'] },
+  { id: 'crm', title: 'Make friends with CRM', subtitle: 'People, businesses, and the details that connect them.', level: 'Beginner', icon: 'users', lessons: ['first-contact', 'properties', 'associations'] },
+  { id: 'clean-data', title: 'Bring your data together', subtitle: 'Import carefully. Keep it clean.', level: 'Beginner', icon: 'database', lessons: ['prepare-import', 'map-import', 'clean-records'] },
+  { id: 'lifecycle', title: 'Know where a lead stands', subtitle: 'Turn a customer journey into a shared process.', level: 'Beginner', icon: 'route', lessons: ['lifecycle-stages', 'qualification', 'handoff'] },
+  { id: 'segments', title: 'Find the right audience', subtitle: 'Build useful groups instead of messaging everyone.', level: 'Beginner', icon: 'filter', lessons: ['active-static', 'and-or', 'audience-safety'] },
+  { id: 'lead-capture', title: 'Turn visitors into leads', subtitle: 'Forms and pages with a clear purpose.', level: 'Intermediate', icon: 'layout', lessons: ['first-form', 'landing-page', 'consent'] },
+  { id: 'email', title: 'Send emails people want', subtitle: 'Helpful messages. Thoughtful testing.', level: 'Intermediate', icon: 'mail', lessons: ['first-email', 'personalization', 'email-quality'] },
+  { id: 'campaigns', title: 'Bring a campaign to life', subtitle: 'Connect your message, channels, and measurement.', level: 'Intermediate', icon: 'megaphone', lessons: ['campaign-plan', 'content-channels', 'tracking-links'] },
+  { id: 'automation', title: 'Let good processes repeat', subtitle: 'Understand automation before you turn it on.', level: 'Intermediate', icon: 'workflow', lessons: ['workflow-basics', 'branches-delays', 'test-workflow'] },
+  { id: 'sales', title: 'Help sales take the next step', subtitle: 'Deals, follow-ups, and a clear pipeline.', level: 'Intermediate', icon: 'columns', lessons: ['deals-pipeline', 'tasks-meetings', 'sequences'] },
+  { id: 'service', title: 'Look after your customers', subtitle: 'Solve problems and learn from feedback.', level: 'Intermediate', icon: 'heart', lessons: ['tickets', 'knowledge-base', 'customer-feedback'] },
+  { id: 'reporting', title: 'Make numbers useful', subtitle: 'Ask better questions. Read the right numbers.', level: 'Advanced', icon: 'chart', lessons: ['report-question', 'dashboards', 'attribution'] },
+  { id: 'admin', title: 'Run a well-organized account', subtitle: 'Good access, clean data, and careful changes.', level: 'Advanced', icon: 'shield', lessons: ['permissions', 'data-sync', 'change-control'] },
+  { id: 'advanced', title: 'Connect the bigger picture', subtitle: 'Data models, integrations, AI, and revenue.', level: 'Advanced', icon: 'layers', lessons: ['custom-model', 'api-basics', 'ai-revenue'] },
+  { id: 'capstone', title: 'Put it all together', subtitle: 'Build your first complete project, then keep growing.', level: 'Advanced', icon: 'award', lessons: ['launch-project', 'troubleshooting', 'next-steps'] },
+];

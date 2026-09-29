@@ -1,0 +1,13 @@
+{
+  "name": "hubspot-learning-lab",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "An independent, plain-English HubSpot learning companion. No backend or runtime dependencies.",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "start": "node scripts/serve.mjs"
+  },
+  "engines": { "node": ">=20" }
+}

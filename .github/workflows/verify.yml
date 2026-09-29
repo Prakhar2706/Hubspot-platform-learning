@@ -1,0 +1,32 @@
+name: Verify learning website
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - name: Check out project
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+      - name: Set up Node
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: '24'
+      - name: Build self-contained website
+        run: npm run build
+      - name: Check lessons and practice logic
+        run: npm test
+      - name: Check static publishing boundaries
+        run: python3 tests/site_check.py
+      - name: Verify generated pages are current
+        run: git diff --exit-code -- index.html site/index.html
