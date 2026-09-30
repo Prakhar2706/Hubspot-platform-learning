@@ -9,6 +9,7 @@ Repository: [Prakhar2706/Hubspot-platform-learning](https://github.com/Prakhar27
 After GitHub Pages is enabled, the website address is:
 
 **https://prakhar2706.github.io/Hubspot-platform-learning/**
+
 **https://prakhar2706.pythonanywhere.com/**
 
 ## Start learning
